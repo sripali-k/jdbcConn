@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>simple</servlet-name>
+		<servlet-class>EamcetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>simple</servlet-name>	
+	<url-pattern>/result/*</url-pattern>
+	</servlet-mapping>
+</web-app>
